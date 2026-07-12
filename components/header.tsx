@@ -21,6 +21,9 @@ export function Header({ isBackVisible, onBack }: HeaderProps) {
       <div className="flex items-center">
         <MainMenu isBackVisible={isBackVisible} onBack={onBack} />
       </div>
+      <div className="absolute left-1/2 -translate-x-1/2 text-sm font-medium tracking-wide text-neutral-900">
+        Forage &amp; Gather
+      </div>
       <div className="flex items-center">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
