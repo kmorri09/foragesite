@@ -68,7 +68,7 @@ export default function Page() {
       <Header isBackVisible={!!selectedProduct} onBack={handleBack} />
       <main className="flex-grow relative pt-12">
         <motion.div
-          className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-9 gap-x-5 gap-y-12 pb-8"
+          className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-9 gap-x-7 gap-y-14 pb-8"
           animate={{ opacity: selectedProduct ? 0 : 1 }}
           transition={{ duration: 0.3 }}
         >
@@ -86,10 +86,12 @@ export default function Page() {
               }}
               transition={{ duration: 0.3 }}
             >
-              <ProductImage
-                product={product}
-                layoutId={`product-image-${product.id}`}
-              />
+              <div className="scale-[1.4] origin-center pb-2">
+                <ProductImage
+                  product={product}
+                  layoutId={`product-image-${product.id}`}
+                />
+              </div>
               <motion.p
                 className="font-medium text-center font-mono uppercase"
                 animate={{
