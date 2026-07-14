@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "HOSTNAME=0.0.0.0 node .next/standalone/server.js"
+    "start": "next start -H 0.0.0.0"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",
