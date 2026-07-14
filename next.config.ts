@@ -15,7 +15,6 @@ const nextConfig: NextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   experimental: {
-    ppr: true,
     inlineCss: true,
   },
 };
