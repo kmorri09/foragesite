@@ -35,7 +35,7 @@ export const products: Product[] = [
     id: 'rc-01-white',
     name: 'Racing Coat 01',
     image:
-      'https://6gy9systudbmcbju.public.blob.vercel-storage.com/rc-white-mKyVl9ITodiypqdBzjVcaAcYbFFkWi.png',
+      '/IMG_7306.jpeg',
   },
   {
     id: 'sh-01-white',
@@ -89,7 +89,7 @@ export const products: Product[] = [
     id: 'rc-01-gray',
     name: 'Racing Coat 01',
     image:
-      'https://6gy9systudbmcbju.public.blob.vercel-storage.com/rc-gray-0VXnNRc9WpVTvVpTbqsJFGJkB3qn3x.png',
+      '/IMG_7306.jpeg',
   },
   {
     id: 'sh-01-gray',
@@ -143,7 +143,7 @@ export const products: Product[] = [
     id: 'rc-01-black',
     name: 'Racing Coat 01',
     image:
-      'https://6gy9systudbmcbju.public.blob.vercel-storage.com/rc-black-550NSLNaj1R2h30NCbHqFb0Bze0Vqq.png',
+      '/IMG_7306.jpeg',
   },
   {
     id: 'sh-01-black',
